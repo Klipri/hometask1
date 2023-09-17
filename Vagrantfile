@@ -8,8 +8,8 @@ Vagrant.configure("2") do |config|
     yum install -y nginx
     systemctl start nginx
     systemctl enable nginx
-  SHELL 
-#Shell - оболонка, команди, які виконуються при запуску Virtual Machine
+  SHELL
+
 
 config.vm.synced_folder "C:/Users/Legion/Desktop/hometask1/www-content", "/usr/share/nginx/html"
 
